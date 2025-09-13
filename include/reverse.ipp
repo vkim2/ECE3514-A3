@@ -8,7 +8,7 @@
 
 template <typename T>
 void print_array(const T arr[], int n) {
-    std::cout << "[";
+    std::cout << ": [";
     for (int i = 0; i < n; i++) {
         std::cout << arr[i]; //print element
         if (i < n - 1) { //not at the end of array

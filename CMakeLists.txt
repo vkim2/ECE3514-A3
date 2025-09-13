@@ -5,13 +5,13 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # used internally by CMake to identify your project
-project(arr_reversal)
+project(reverse)
 
 # Include the directory headers are located
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Add the main executable
-add_executable(arr_reversal src/main.cpp)
+add_executable(reverse src/main.cpp)
 
 ####################################################
 
